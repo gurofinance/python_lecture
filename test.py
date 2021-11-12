@@ -1,14 +1,3 @@
-# myVar = 100
-# data = type(myVar)
-# print(data)
-# if (1234):
-#     print("참이면 보여요")
+from matplotlib import pyplot as plt
 
-# if (0):
-#     print("거짓이면 안보여요")
-
-# print(False ^ True)
-
-while True:
-    print("무한 반복")
-
+plt.plot([1,2,3,4])
